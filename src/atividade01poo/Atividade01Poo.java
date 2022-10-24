@@ -2,6 +2,9 @@ package atividade01poo;
 
 import java.util.Scanner;
 
+// ALUNO: 552155 - DANIEL KISTEMACHER DA SILVA
+// ATIVIDADE UNIDADE 02 DE PROGRAMAÇAÕ ORIENTADA A OBJETOS
+
 public class Atividade01Poo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -10,7 +13,7 @@ public class Atividade01Poo {
         
         // RECEBENDO AS INFORMAÇÕES DO CAMINHÃO
         Caminhao caminhao1 = new Caminhao();
-        System.out.println("Informe os dados do caminhão");
+        System.out.println("-> Informe os dados do caminhão");
         System.out.print("Modelo do caminhão: ");
         novoModeloCaminhao = input.nextLine();
         caminhao1.definirModelo(novoModeloCaminhao);
@@ -35,14 +38,14 @@ public class Atividade01Poo {
         
         // RECEBENDO AS INFORMAÇÕES DO REBOQUE        
         Reboque reboque1 = new Reboque();
-        System.out.println("Informe os dados do reboque");
+        System.out.println("-> Informe os dados do reboque");
         System.out.print("Tipo de reboque: ");
         tipoReboque = input.nextLine();
         reboque1.definirTipo(tipoReboque);
         
         // RECEBENDO AS INFORMAÇÕES DO CARRO
         Carro carro1 = new Carro();
-        System.out.println("Informe os dados do carro");
+        System.out.println("-> Informe os dados do carro");
         System.out.print("Modelo do carro: ");
         novoModeloCarro = input.nextLine();
         carro1.definirModelo(novoModeloCarro);
